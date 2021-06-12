@@ -6,9 +6,9 @@ function Register() {
       <div class="container">
         <div class="row align-items-center my-5">
 
-            <h1 class="font-weight-light">Register</h1>
+            
             <div className="base-container" >
-
+            <h1 class="font-weight-light">Register With Us</h1>
               <div className="content">
 
                 <div className="form">
@@ -31,7 +31,7 @@ function Register() {
                   Submit
                 </button>
               </div>
-              <div>
+              <div className="text">
                 <span>Already have an account? <a href='/'>Login</a></span>
               </div>
             </div>

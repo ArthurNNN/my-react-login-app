@@ -6,9 +6,9 @@ function Login() {
       <div class="container">
         <div class="row align-items-center my-5">
 
-            <h1 class="font-weight-light">Login</h1>
+            
             <div className="base-container" >
-
+            <h1 class="font-weight-light">Login</h1>
               <div className="content">
 
                 <div className="form">
