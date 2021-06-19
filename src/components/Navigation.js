@@ -11,34 +11,35 @@ function Navigation(props) {
           </Link>
           <div>
             <ul class="navbar-nav ml-auto">
-              <li
+            <li
                 class={`nav-item  ${
                   props.location.pathname === "/" ? "active" : ""
                 }`}
               >
                 <Link class="nav-link" to="/">
-                  Login
+                  Home
+                </Link>
+              </li>
+              <li
+                class={`nav-item  ${
+                  props.location.pathname === "/signin" ? "active" : ""
+                }`}
+              >
+                <Link class="nav-link" to="/signin">
+                  Sign In
                   <span class="sr-only">(current)</span>
                 </Link>
               </li>
               <li
                 class={`nav-item  ${
-                  props.location.pathname === "/register" ? "active" : ""
+                  props.location.pathname === "/signup" ? "active" : ""
                 }`}
               >
-                <Link class="nav-link" to="/register">
-                  Register
+                <Link class="nav-link" to="/signup">
+                  Sign Up
                 </Link>
               </li>
-              <li
-                class={`nav-item  ${
-                  props.location.pathname === "/home" ? "active" : ""
-                }`}
-              >
-                <Link class="nav-link" to="/home">
-                  Home
-                </Link>
-              </li>
+
             </ul>
           </div>
         </div>
